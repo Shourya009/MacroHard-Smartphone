@@ -125,3 +125,15 @@ section.products div.compare a:hover{
     color: #202661;
     border: none;
 }
+
+section.products div.headphones{
+    background:rgba(0, 0, 0, .5) url(../SmartPhone_wife+Mockup2-assets/HEadphones.jpg) no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 600px;
+    text-align: center;
+}
+
+section.products div.headphones h3{
+    color: white;
+}
