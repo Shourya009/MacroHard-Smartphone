@@ -102,9 +102,6 @@ section.products div.compare{
     height: auto;
     min-height: 600px;
     text-align: center;
-    float: left;
-    width: 50%;
-
 }
 
 section.products div.compare h3{
