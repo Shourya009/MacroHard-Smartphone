@@ -6,7 +6,8 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 100%
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 html{
@@ -92,21 +93,33 @@ nav a.Logo{
 }
 
 /*-----Products-----*/
-
-section.products{
-    overflow: hidden;
-}
-
 section.products div.compare{
     background: #202661; 
-    height: auto;
-    min-height: 600px;
+    height: 600px;
     text-align: center;
+    padding: 50px 40px 50px 40px;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+}
+
+section.products div.compare img{
+    float: left;
+    padding: 30px 0 0 0 ;
+    
+}
+
+section.products div.compare div.btn{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    
 }
 
 section.products div.compare h3{
     color: white;
     margin-bottom: 40px;
+    
 }
 
 section.products div.compare a{
@@ -126,11 +139,13 @@ section.products div.compare a:hover{
 section.products div.headphones{
     background:rgba(0, 0, 0, .5) url(../SmartPhone_wife+Mockup2-assets/HEadphones.jpg) no-repeat;
     background-size: cover;
-    height: auto;
+    position: relative;
     min-height: 600px;
     text-align: center;
 }
 
 section.products div.headphones h3{
     color: white;
+    position: absolute;
+    top: 50%;
 }
