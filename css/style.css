@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body{
+
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  padding: 0;
+  border: 0;
+
+}
+
+#page{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* -----Text------- */
+h1{
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+h3{
+  font-size:1.6em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.btn{
+  display: inline-block;
+  padding: 15px 50px;
+  border: 2px solid #202661;
+  border-radius: 50px;
+}
+
+ul{
+  list-style: none;
+}
+
+section{
+  padding: 50px 40px;
+}
+
+/* -----Header------- */
+header{
+  height: 650px;
+  padding: 30px 40px 0 40px;
+  background: rgba(255, 255, 255, 0.658) url(/SmartPhone_wife+Mockup2-assets/Header.jpg) no-repeat center top;
+  background-position: relative;
+}
+
+header a.logo{
+  font-size: 24px;
+  font-weight: 700;
+  color: #202661;
+}
+
+header section.nav{
+  float:right;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+header section.nav ul li{
+  float: left;
+}
+
+header section.nav ul li a{
+  display: inline-block;
+  padding: 10px 30px;
+  margin-left: 20px;
+  color: #202661;
+  font-size: 20px;
+}
+
+header div.hero{
+  position: absolute;
+  top: 30%;  
+}
+
+header div.hero h1{
+  color: #777777;
+}
+
+header div.hero a.btn{
+  color: #202661;
+  transition: background .2s ease-out;
+}
+
+header div.hero a.btn:hover{
+  background-color: #202661;
+  color: #fff;
+}
