@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+/* -------------------- */
 body{
 
   font-family: 'Lato', sans-serif;
@@ -11,7 +18,7 @@ body{
 }
 
 #page{
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -25,7 +32,7 @@ h1{
 
 h3{
   font-size:1.6em;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 
@@ -50,39 +57,46 @@ section{
 
 /* -----Header------- */
 header{
+
   height: 650px;
   padding: 30px 40px 0 40px;
+  overflow: auto;
   background: rgba(255, 255, 255, 0.658) url(/SmartPhone_wife+Mockup2-assets/Header.jpg) no-repeat center top;
-  background-position: relative;
+  background-attachment: fixed;
 }
 
 header a.logo{
   font-size: 24px;
   font-weight: 700;
   color: #202661;
+  padding: 10px 0;
 }
 
 header section.nav{
   float:right;
-  padding: 5px;
   margin: 0;
-  position: absolute;
-  top: 0;
-  left: 50%;
+  padding: 0;
   text-align: center;
-  vertical-align: baseline;
+  
+}
+
+header section.nav ul{
+  overflow: auto;
+  padding: 0;
+  margin: 0;
 }
 
 header section.nav ul li{
   float: left;
+  margin-left:20px
 }
 
 header section.nav ul li a{
   display: inline-block;
-  padding: 10px 30px;
-  margin-left: 20px;
+  padding: 0 20px 10px 20px;
   color: #202661;
   font-size: 20px;
+  font-weight: 400;
 }
 
 header div.hero{
@@ -102,4 +116,75 @@ header div.hero a.btn{
 header div.hero a.btn:hover{
   background-color: #202661;
   color: #fff;
+}
+
+/* -----Products------- */
+section.products{
+  margin: 0;
+  padding: 0;
+}
+
+section.products::after{
+  overflow: hidden;
+}
+
+section.products aside{
+  width: 50%;
+  float: left;
+  /* min-height: 150px; */
+  position: relative;
+}
+
+
+section.products aside div.content{
+  padding: 20px 40px;
+  text-align: center;
+  min-height: 264px;
+  position: relative;
+
+}
+
+section.products aside div.content h3{
+  color: #fff;
+}
+
+section.products aside div.content a.btn{
+  border: 2px solid #fff;
+  color: #fff;
+  transition: background .2s ease-out;
+}
+
+section.products aside div.content a.btn:hover{
+  background: #fff;
+  color: #202661;
+}
+
+section.products aside div.phone{
+  background: #202661;
+  overflow: hidden;
+}
+
+section.products aside div.phone img{
+  float: left;
+  width: 25%;
+}
+
+section.products aside div.phone div.headings{
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+section.products aside div.headphone{
+  background: url(/SmartPhone_wife+Mockup2-assets/HEadphones.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.products aside div.headphone h3{
+  position: absolute;
+  top: 20%;
+  left: 30%;
 }
