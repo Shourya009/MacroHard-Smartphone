@@ -191,24 +191,23 @@ section.products aside div.headphone h3{
 
 /* ------------Device----------- */
 section.device{
-  border:20px solid #f4f4f4;
-  background:#fff;
-  background: url(/SmartPhone_wife+Mockup2-assets/Nonotchclipped.png) no-repeat;
-  background-position: 25px 40px;
-  padding: 50px 0px 0px 590px;
+  border: 20px solid #f4f4f4;
+  background:url(/SmartPhone_wife+Mockup2-assets/NoPhone.png) no-repeat;
+  background-position: 0 5px;
+  padding: 0 0 0 700px;/*or 0 0 0 50%*/
   overflow: hidden;
-  min-height: 600px;
+
 }
 
+
 section.device aside{
-  width: 45%;
   float: left;
-  background: #fff;
-}
+ }
 
 section.device aside div.content{
   text-align: left;
-  padding: 0px 40px;
+  min-height: 524px;
+  padding: 50px 40px;
 }
 
 section.device aside div.content ul{
