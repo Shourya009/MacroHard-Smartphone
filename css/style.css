@@ -6,7 +6,7 @@ html{
 *, *:before, *:after{
   box-sizing: inherit;
 }
-/* -------------------- */
+/* ------------------------------- */
 body{
 
   font-family: 'Lato', sans-serif;
@@ -23,17 +23,17 @@ body{
 }
 
 
-/* -----Text------- */
+/* --------------Text------------- */
 h1{
   font-size: 2.3em;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 h3{
   font-size:1.6em;
   font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 a{
@@ -55,7 +55,7 @@ section{
   padding: 50px 40px;
 }
 
-/* -----Header------- */
+/* -----------Header---------- */
 header{
 
   height: 650px;
@@ -118,13 +118,13 @@ header div.hero a.btn:hover{
   color: #fff;
 }
 
-/* -----Products------- */
+/* ------------Products------------ */
 section.products{
   margin: 0;
   padding: 0;
 }
 
-section.products::after{
+section.products{
   overflow: hidden;
 }
 
@@ -179,7 +179,7 @@ section.products aside div.phone div.headings{
 
 section.products aside div.headphone{
   background: url(/SmartPhone_wife+Mockup2-assets/HEadphones.jpg) no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
@@ -187,4 +187,54 @@ section.products aside div.headphone h3{
   position: absolute;
   top: 20%;
   left: 30%;
+}
+
+/* ------------Device----------- */
+section.device{
+  background: #f4f4f4;
+  padding: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+section.device img{
+  width: 40%;
+  float: left;
+  background: #fff;
+  padding: 30px 20px 10px 20px;
+}
+
+section.device aside{
+  width: 30%;
+  float: left;
+  background: #fff;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+
+}
+
+section.device aside div.content{
+  text-align: left;
+  min-height: 524px;
+  padding: 50px 40px;
+}
+
+section.device aside div.content ul{
+  padding: 0;
+  margin-bottom: 50px;
+  color: #202661;
+}
+
+section.device aside div.content ul li{
+  margin-bottom: 10px;
+  color: #777777;
+}
+
+section.device aside div.content a.btn{
+  color: #202661;
+  transition: background .2s ease-out;
+}
+
+section.device aside div.content a.btn:hover{
+  background: #202661;
+  color: #fff;
 }
