@@ -1,63 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
-
-html{
+html {
   box-sizing: border-box;
 }
-*, *:before, *:after{
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-/* ------------------------------- */
-body{
 
+/* ------------------------------- */
+
+body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   font-size: 16px;
   padding: 0;
   border: 0;
-
 }
 
-#page{
+#page {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-
 /* --------------Text------------- */
-h1{
+
+h1 {
   font-size: 2.3em;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
-h3{
-  font-size:1.6em;
+h3 {
+  font-size: 1.6em;
   font-weight: 400;
   margin-bottom: 40px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a.btn{
+a.btn {
   display: inline-block;
   padding: 15px 50px;
   border: 2px solid #202661;
   border-radius: 50px;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-section{
+section {
   padding: 50px 40px;
 }
 
 /* -----------Header---------- */
-header{
 
+header {
   height: 650px;
   padding: 30px 40px 0 40px;
   overflow: auto;
@@ -65,33 +67,32 @@ header{
   background-attachment: fixed;
 }
 
-header a.logo{
+header a.logo {
   font-size: 24px;
   font-weight: 700;
   color: #202661;
   padding: 10px 0;
 }
 
-header section.nav{
-  float:right;
+header section.nav {
+  float: right;
   margin: 0;
   padding: 0;
   text-align: center;
-  
 }
 
-header section.nav ul{
+header section.nav ul {
   overflow: auto;
   padding: 0;
   margin: 0;
 }
 
-header section.nav ul li{
+header section.nav ul li {
   float: left;
-  margin-left:20px
+  margin-left: 20px
 }
 
-header section.nav ul li a{
+header section.nav ul li a {
   display: inline-block;
   padding: 0 20px 10px 20px;
   color: #202661;
@@ -99,77 +100,76 @@ header section.nav ul li a{
   font-weight: 400;
 }
 
-header div.hero{
+header div.hero {
   position: absolute;
-  top: 30%;  
+  top: 30%;
 }
 
-header div.hero h1{
+header div.hero h1 {
   color: #777777;
 }
 
-header div.hero a.btn{
+header div.hero a.btn {
   color: #202661;
   transition: background .2s ease-out;
 }
 
-header div.hero a.btn:hover{
+header div.hero a.btn:hover {
   background-color: #202661;
   color: #fff;
 }
 
 /* ------------Products------------ */
-section.products{
+
+section.products {
   margin: 0;
   padding: 0;
 }
 
-section.products{
+section.products {
   overflow: hidden;
 }
 
-section.products aside{
+section.products aside {
   width: 50%;
   float: left;
   /* min-height: 150px; */
   position: relative;
 }
 
-
-section.products aside div.content{
+section.products aside div.content {
   padding: 20px 40px;
   text-align: center;
   min-height: 264px;
   position: relative;
-
 }
 
-section.products aside div.content h3{
+section.products aside div.content h3 {
   color: #fff;
 }
 
-section.products aside div.content a.btn{
+section.products aside div.content a.btn {
   border: 2px solid #fff;
   color: #fff;
   transition: background .2s ease-out;
 }
 
-section.products aside div.content a.btn:hover{
+section.products aside div.content a.btn:hover {
   background: #fff;
   color: #202661;
 }
 
-section.products aside div.phone{
+section.products aside div.phone {
   background: #202661;
   overflow: hidden;
 }
 
-section.products aside div.phone img{
+section.products aside div.phone img {
   float: left;
   width: 25%;
 }
 
-section.products aside div.phone div.headings{
+section.products aside div.phone div.headings {
   padding: 0;
   margin: 0;
   position: absolute;
@@ -177,22 +177,23 @@ section.products aside div.phone div.headings{
   left: 50%;
 }
 
-section.products aside div.headphone{
+section.products aside div.headphone {
   background: url(/SmartPhone_wife+Mockup2-assets/HEadphones.jpg) no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-section.products aside div.headphone h3{
+section.products aside div.headphone h3 {
   position: absolute;
   top: 20%;
   left: 30%;
 }
 
 /* ------------Device----------- */
-section.device{
-  border:15px solid #f4f4f4;
-  background:#fff;
+
+section.device {
+  border: 15px solid #f4f4f4;
+  background: #fff;
   background: url(/SmartPhone_wife+Mockup2-assets/Nonotchclipped.png) no-repeat;
   background-position: 25px 40px;
   padding: 50px 0px 0px 590px;
@@ -200,113 +201,135 @@ section.device{
   min-height: 600px;
 }
 
-section.device aside{
+section.device aside {
   width: 45%;
   float: left;
   background: #fff;
 }
 
-section.device aside div.content{
+section.device aside div.content {
   text-align: left;
   padding: 0px 40px;
 }
 
-section.device aside div.content h3{
+section.device aside div.content h3 {
   color: #202661;
 }
 
-section.device aside div.content ul{
+section.device aside div.content ul {
   padding: 0;
   margin-bottom: 50px;
 }
 
-section.device aside div.content ul li{
+section.device aside div.content ul li {
   margin-bottom: 10px;
   color: #777777;
 }
 
-section.device aside div.content a.btn{
+section.device aside div.content a.btn {
   color: #202661;
   transition: background .2s ease-out;
 }
 
-section.device aside div.content a.btn:hover{
+section.device aside div.content a.btn:hover {
   background: #202661;
   color: #fff;
 }
 
 /* --------Atmosphere------- */
-section.atmosphere{
+
+section.atmosphere {
   overflow: hidden;
   padding: 0;
 }
 
-section.atmosphere aside{
+section.atmosphere aside {
   width: 50%;
   float: left;
 }
 
-section.atmosphere aside div.img{
+section.atmosphere aside div.img {
   min-height: 400px;
 }
 
-section.atmosphere aside div.innovation{
+section.atmosphere aside div.innovation {
   background: url(/SmartPhone_wife+Mockup2-assets/Innovations.jpg) no-repeat top center;
   background-size: cover;
 }
-section.atmosphere aside div.news{
+
+section.atmosphere aside div.news {
   background: url(/SmartPhone_wife+Mockup2-assets/News.jpg) no-repeat top center;
   background-size: cover;
 }
 
-section.atmosphere aside div.content{
+section.atmosphere aside div.content {
   padding: 50px 40px;
   text-align: left;
 }
-section.atmosphere aside div.gray{
+
+section.atmosphere aside div.gray {
   background: #f4f4f4;
 }
-section.atmosphere aside div.content h3{
+
+section.atmosphere aside div.content h3 {
   color: #202661;
 }
 
-section.atmosphere aside div.content p{
+section.atmosphere aside div.content p {
   color: #777777;
 }
+
 /* ---------CTA-------- */
-section.CTA{
+
+section.CTA {
   background: #202661;
+  height: 400px;
+  ;
+  position: relative;
 }
 
-section.CTA div.content h3{
+section.CTA div.content h3 {
   color: #fff;
   margin-bottom: 15px;
 }
 
-section.CTA div.content p{
+section.CTA div.content p {
   color: #fff;
   margin-bottom: 50px;
 }
 
-section.CTA div.content a.btn{
+section.CTA div.content a.btn {
   border: 2px solid #fff;
   color: #fff;
   transition: background .2s ease-out;
 }
 
-section.CTA div.content a.btn:hover{
+section.CTA div.content a.btn:hover {
   background: #fff;
   color: #202661;
 }
 
+section.CTA img {
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+}
 
+/* Footer */
+section.footer{
+  padding: 20px 40px;
+}
 
+section.footer div{
+  text-align: center;
+}
 
+section.footer div a{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
 
-
-
-
-
-
-
-
+section.footer div a img{
+  width: 20px;
+}
