@@ -191,7 +191,7 @@ section.products aside div.headphone h3{
 
 /* ------------Device----------- */
 section.device{
-  border:20px solid #f4f4f4;
+  border:15px solid #f4f4f4;
   background:#fff;
   background: url(/SmartPhone_wife+Mockup2-assets/Nonotchclipped.png) no-repeat;
   background-position: 25px 40px;
@@ -211,10 +211,13 @@ section.device aside div.content{
   padding: 0px 40px;
 }
 
+section.device aside div.content h3{
+  color: #202661;
+}
+
 section.device aside div.content ul{
   padding: 0;
   margin-bottom: 50px;
-  color: #202661;
 }
 
 section.device aside div.content ul li{
@@ -231,3 +234,79 @@ section.device aside div.content a.btn:hover{
   background: #202661;
   color: #fff;
 }
+
+/* --------Atmosphere------- */
+section.atmosphere{
+  overflow: hidden;
+  padding: 0;
+}
+
+section.atmosphere aside{
+  width: 50%;
+  float: left;
+}
+
+section.atmosphere aside div.img{
+  min-height: 400px;
+}
+
+section.atmosphere aside div.innovation{
+  background: url(/SmartPhone_wife+Mockup2-assets/Innovations.jpg) no-repeat top center;
+  background-size: cover;
+}
+section.atmosphere aside div.news{
+  background: url(/SmartPhone_wife+Mockup2-assets/News.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+section.atmosphere aside div.content{
+  padding: 50px 40px;
+  text-align: left;
+}
+section.atmosphere aside div.gray{
+  background: #f4f4f4;
+}
+section.atmosphere aside div.content h3{
+  color: #202661;
+}
+
+section.atmosphere aside div.content p{
+  color: #777777;
+}
+/* ---------CTA-------- */
+section.CTA{
+  background: #202661;
+}
+
+section.CTA div.content h3{
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+section.CTA div.content p{
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+section.CTA div.content a.btn{
+  border: 2px solid #fff;
+  color: #fff;
+  transition: background .2s ease-out;
+}
+
+section.CTA div.content a.btn:hover{
+  background: #fff;
+  color: #202661;
+}
+
+
+
+
+
+
+
+
+
+
+
+
