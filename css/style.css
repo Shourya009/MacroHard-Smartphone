@@ -325,8 +325,16 @@ section.footer div{
 
 section.footer div a{
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 10px 0 10px;
   margin-right: 10px;
+}
+
+section.footer div a:hover{
+  text-decoration: underline #202661;
+}
+
+section.footer div a:visited{
+  color: #202661;
 }
 
 section.footer div a img{
