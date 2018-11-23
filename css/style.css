@@ -57,12 +57,16 @@ section {
   padding: 50px 40px;
 }
 
+span {
+  font-weight: 400;
+  color:#0c103a;
+}
 /* -----------Header---------- */
 
 header {
   height: 650px;
-  padding: 30px 40px 0 40px;
-  overflow: auto;
+  padding: 50px 40px 50px 40px;
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.658) url(/SmartPhone_wife+Mockup2-assets/Header.jpg) no-repeat center top;
   background-attachment: fixed;
 }
@@ -185,15 +189,16 @@ section.products aside div.headphone {
 
 section.products aside div.headphone h3 {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 30%;
+  margin: 0;
 }
 
 /* ------------Device----------- */
 
 section.device {
   border: 15px solid #f4f4f4;
-  background: #fff;
+  background-color: #fff;
   background: url(/SmartPhone_wife+Mockup2-assets/Nonotchclipped.png) no-repeat;
   background-position: 25px 40px;
   padding: 50px 0px 0px 590px;
@@ -222,7 +227,7 @@ section.device aside div.content ul {
 }
 
 section.device aside div.content ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #777777;
 }
 
@@ -340,3 +345,85 @@ section.footer div a:visited{
 section.footer div a img{
   width: 20px;
 }
+
+/* -------------------media queries-------------- */
+
+  @media screen and (max-width: 1200px){
+
+    h1{
+      font-size: 2.1em;
+      margin-bottom: 40px;
+    }
+
+    a.btn{
+      padding: 15px 40px;
+    }
+
+    /* -----------Header---------- */
+
+    header div.hero {
+      top: 25%;
+    }
+
+    /* ------------Products------------ */
+    section.products aside div.phone img{
+      width: 30%;
+    }
+
+    section.products aside div.phone div.headings h3{
+      margin-bottom: 25px;
+    }
+
+    section.products aside div.content{
+      min-height: 265px;
+    }
+
+    section.products aside div.headphone h3{
+      left: 20%;
+    }
+
+    /* ------------Device----------- */
+    section.device{
+      background-image: url(/SmartPhone_wife+Mockup2-assets/Nonotch_medium.png);
+      padding: 50px 0 0 560px;
+      min-height: 580px; 
+    }
+
+    section.device aside {
+      width: 50%;
+    }
+
+    /* --------Atmosphere------- */
+    section.atmosphere aside div.img {
+      min-height: 280px;
+    }
+
+    section.atmosphere aside div.content {
+      padding: 40px 40px;
+    }
+
+    section.atmosphere aside div.content h3{
+      margin-bottom: 15px;
+    }
+
+    /* ---------CTA-------- */
+
+    section.CTA {
+      height: 320px;
+    background-image: url(/SmartPhone_wife+Mockup2-assets/PhoneCta_medium.png);
+    background-repeat: no-repeat;
+    background-position-x: 910px;
+    background-position-y: 40px; 
+    }
+
+    section.CTA img {
+      display: none;
+    }
+
+    /* ----------Footer---------- */
+    section.footer{
+    height: 120px;
+    }
+
+  
+  }
